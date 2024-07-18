@@ -1,0 +1,28 @@
+local Pl = game.PlaceId
+
+if Pl == 7622046644  then -- Monster Ghoul
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Monster/main/Beta"))()
+
+elseif Pl == 914010731 then -- Ro Ghoul
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Ro-Ghoul/main/Xesonz"))()
+
+elseif Pl == 17167990958 then -- Rock Fruit
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/RockFruit/main/Kak"))()
+
+elseif Pl == 6918802270 then -- Haze Piece
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Hazepiece/main/Kak"))()
+
+elseif Pl == 15694107053 or Pl == 17889317592 then -- Jujutsu Legacy
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Jujutsu/main/Kak"))()
+
+elseif Pl == 10260193230 then -- Meme Sea
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/memesea/main/Kak"))()
+
+elseif Pl == 15049111150 then -- Second Sea
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Second/main/Kak"))()
+
+else
+    game.Players.LocalPlayer:Kick("Script Not Found Map")
+    wait(1)
+	game:GetService("TeleportService"):Teleport(game.Pl, game:GetService("Players").LocalPlayer)
+end
