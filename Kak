@@ -21,6 +21,9 @@ elseif Pl == 10260193230 then -- Meme Sea
 elseif Pl == 15049111150 then -- Second Sea
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Second/main/Kak"))()
 
+elseif Pl == 394506555 then -- Glue Piece
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Gluepiece/main/Kak"))()
+
 else
     game.Players.LocalPlayer:Kick("Script Not Found Map")
     wait(1)
