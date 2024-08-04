@@ -27,6 +27,9 @@ elseif Pl == 394506555 then -- Glue Piece
 elseif Pl == 18271034370 then -- Sakura Piece
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Sakurapiece/main/Kak"))()
 
+elseif Pl == 18337464872 then -- Sakura Piece
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/TheXesonz/Weaklegacy2/main/Kak"))()
+
 else
     game.Players.LocalPlayer:Kick("Script Not Found Map")
     wait(1)
